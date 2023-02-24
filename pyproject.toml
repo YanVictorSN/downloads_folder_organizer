@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "automatic-dowloads"
+version = "0.1.0"
+description = ""
+authors = ["yanvictorsn <yanvictosn@gmail.com>"]
+readme = "README.md"
+packages = [{include = "automatic_dowloads"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+black = "^23.1.0"
+mypy = "^1.0.1"
+pytest = "^7.2.1"
+pytest-cov = "^4.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
