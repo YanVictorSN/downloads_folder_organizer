@@ -9,7 +9,7 @@ This project automatically organizes the downloads folder into pre-established c
 ``` 
 poetry install
 ```
-3. Rode o código
+3. Run the code
 ```
 poetry run python downloads_folder_organizer/organization_folder.py
 ```
